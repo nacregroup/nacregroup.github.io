@@ -1,5 +1,94 @@
-.top-nav ul {
-    list-style-type: none;
+.top-nav {
     margin: 0;
     padding: 0;
+    border: 0;
+    background: $header-bg-color;
+    display: block;
+    min-height: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: $link-font-family;
+    font-size: 12px;
+    font-weight: bold;
+
+    // desktop
+    min-width: 600px;
+
+    #top-home {
+        //background: url("/assets/favicon.png") 0 0 no-repeat;
+        //padding-left: 35px;
+        float: left;
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+
+    a {
+        vertical-align: baseline;
+        color: #C1C1C1;
+    }
+
+    a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+
+    ul {
+        list-style-type: none;
+        float: right;
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+
+    li {
+        margin-left: 20px;
+        float: left;
+    }
+}
+
+body {
+    background-color: $background-color;
+}
+
+.main-nav{
+    .fullsize-header {
+        background: url("/assets/banner.jpg") #fff center top no-repeat;
+        height: 240px;
+        position: relative;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        text-decoration: none;
+        display: table;
+        margin-top: -50px;
+        transform: translate(0, -50px);
+    }
+
+    li {
+        display: table-cell;
+        vertical-align: middle;
+        height: 100px;
+        padding-left: 100px;
+    }
+
+    #nav-last-item {
+        padding-left: 100px;
+    }
+
+    a {
+    }
+
+    #space-patch {
+        height: 50px;
+        position: relative;
+        background-color: #fff;
+        border-width: 0 0 1px 0;
+        border-style: solid;
+        border-color: $grey-color-light;
+    }
 }

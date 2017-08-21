@@ -3,4 +3,32 @@
 ---
 @charset "UTF-8";
 
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 300;
+
+$small-font-size:  $base-font-size * 0.75;
+$base-line-height: 1.5;
+
+$link-font-family: -apple-system, BlinkMacSystemFont, Arial,Verdana,sans-serif;
+
+$spacing-unit:     30px;
+
+$text-color:       #666666;
+$background-color: #fafafa;
+$brand-color:      #666666;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+$header-bg-color: #2C2C2C;
+$footer-color:    #2C2C2C;
+
+// Width of the content area
+$content-width:    1000px;
+
+$on-palm:          600px;
+$on-laptop: 800px;
+
 @import "layout";
+@import "base";

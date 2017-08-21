@@ -14,9 +14,11 @@
 
 <body>
     <header>
-        <nav class="navbar top-nav">
-            <div class="container-fluid">
-                <a href="#">NACRE</a>
+        <nav class="top-nav">
+            <div class="wrapper">
+                <div id="top-home">
+                    <a href="/">NACRE</a>
+                </div>
                 <ul>
                     <li><a href="#">Programs</a></li>
                     <li><a href="#">About</a></li>
@@ -26,30 +28,32 @@
             </div>
         </nav>
 
-        <img id="header-banner" src="/assets/banner.jpg" />
+
+        <div class="main-nav">
+            <div class="fullsize-header">
+            </div>
+            <div id="space-patch">
+            </div>
+            <nav class="wrapper">
+                <ul>
+                    <li><a href="">Programs</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Join</a></li>
+                    <li id="nav-last-item"><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <div class="container-fluid">
-        <img />
-        <nav class="main-nav">
-            <ul>
-                <li><a href="">Programs</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Join</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
 
-
-    <div class="main-area">
+    <div class="wrapper">
         {{ content }}
     </div>
 
 
     <footer>
         <section id="footer-area">
-            <div class="container-fluid">
+            <div class="container-fluid wrapper">
                 <div class="row">
                     <div class="col-md-3 col-xs-12">
                         <b>About</b>
