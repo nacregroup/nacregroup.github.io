@@ -48,20 +48,20 @@
 
 .main-nav{
 
-    .fullsize-header {
+    border-bottom: 1px solid $grey-color-light;
+
+    .fullsize-banner {
         background: url("/assets/banner.jpg") #fff center top no-repeat;
-        height: 240px;
+        height: 180px;
         position: relative;
     }
 
     ul {
+        display: block;
         position: relative;
-        padding: 0;
-        margin: 100px 22px 0 22px;
+        margin: 0px 0px 0px 0px;
         list-style-type: none;
         text-decoration: none;
-        height: 77px;
-        transform: translate(0, -180px);
         text-transform: uppercase;
     }
 
@@ -70,26 +70,35 @@
         float: left;
         display: block;
         vertical-align: middle;
-        margin: 8px 6px 8px 6px;
+        margin: 8px 10px 8px 10px;
         border-right: 1px solid #e5e5e5;
         height: 60px;
-        width: 200px;
-        padding-top: 20px;
+        width: 180px;
+        padding-top: 18px;
 
         a {
-            color: #000;
+            color: $text-color;
             font-size: 17px;
             font-weight: 400;
         }
+
+        a:hover {
+            color: $prime-color;
+            text-decoration: none;
+        }
+    }
+        #nav-first-item {
+            margin-left: 0px;
+            padding-left: 0px;
+        }
+
+        #nav-last-item {
+            border-right: 0px;
+        }
+    #fullsize-navbg {
+        background-color: #fff;
     }
 
-    #nav-first-item {
-        margin-left: 50px;
-    }
-
-    #nav-last-item {
-        border-right: 0px;
-    }
 
     #space-patch {
         height: 0px;
