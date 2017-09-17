@@ -5,7 +5,7 @@
 
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   12px;
-$base-font-weight: 300;
+$base-font-weight: 400;
 
 $small-font-size:  $base-font-size * 0.75;
 $base-line-height: 1.5;
@@ -15,14 +15,16 @@ $link-font-family: Arial,Verdana,sans-serif;//,-apple-system, BlinkMacSystemFont
 $spacing-unit:     30px;
 
 $text-color:       #666666;
-$background-color: #fafafa;
+$background-color: #f0f0f0;
 $brand-color:      #666666;
 
 $prime-color:      #1BA2FC;
+$white-color:      #ffffff;
+$black-color:      #000000;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark:  darken($grey-color, 20%);
 $header-bg-color: #2C2C2C;
 //$header-bg-color: #FD8224;
 $footer-color:    #2C2C2C;
@@ -35,5 +37,6 @@ $on-laptop: 800px;
 
 @import "bootstrap/bootstrap";
 @import "font-awesome/font-awesome";
-@import "layout";
 @import "base";
+@import "layout";
+@import "home";
