@@ -5,7 +5,7 @@
     background: $header-bg-color;
     display: block;
     min-height: 40px;
-    overflow: hidden;
+    overflow: visible;
     text-decoration: none;
     text-align: center;
     box-sizing: border-box;
@@ -13,14 +13,11 @@
     font-size: 12px;
     font-weight: bold;
 
-    // desktop
-    min-width: 600px;
-
     #top-home {
         //background: url("/assets/favicon.png") 0 0 no-repeat;
         //padding-left: 35px;
         float: left;
-        margin-top: 12px;
+        margin-top: 10px;
         margin-bottom: 0;
     }
 
@@ -30,7 +27,7 @@
     }
 
     a:hover {
-        color: #fff;
+        color: $white-color;
         text-decoration: none;
     }
 
@@ -38,7 +35,7 @@
     ul {
         list-style-type: none;
         float: right;
-        margin-top: 12px;
+        margin-top: 10px;
         margin-bottom: 0;
     }
 
@@ -48,47 +45,86 @@
     }
 }
 
-body {
-    background-color: $background-color;
-}
 
 .main-nav{
-    .fullsize-header {
-        background: url("/assets/banner.jpg") #fff center top no-repeat;
-        height: 240px;
+
+    border-bottom: 1px solid $grey-color-light;
+
+    .fullsize-banner {
+        background: url("/assets/banner.jpg") $white-color center top no-repeat;
+        height: 180px;
         position: relative;
     }
 
     ul {
-        padding: 0;
-        margin: 0;
+        display: block;
+        position: relative;
+        margin: 0px 0px 0px 0px;
         list-style-type: none;
         text-decoration: none;
-        display: table;
-        margin-top: -50px;
-        transform: translate(0, -50px);
+        text-transform: uppercase;
     }
 
     li {
-        display: table-cell;
+        overflow: hidden;
+        float: left;
+        display: block;
         vertical-align: middle;
-        height: 100px;
-        padding-left: 100px;
+        margin: 8px 0 8px 0;
+        border-right: 1px solid #e5e5e5;
+        height: 60px;
+        width: 220px;
+        padding-top: 18px;
+        text-align: center;
+        a {
+            color: $text-color;
+            font-size: 17px;
+            font-weight: 400;
+        }
+
+        a:hover {
+            color: $prime-color;
+            text-decoration: none;
+        }
+    }
+    #nav-first-item {
+        margin-left: 0px;
+        padding-left: 0px;
     }
 
     #nav-last-item {
-        padding-left: 100px;
+        border-right: 0px;
+    }
+    #fullsize-navbg {
+        background-color: $white-color;
     }
 
-    a {
-    }
 
     #space-patch {
-        height: 50px;
+        height: 0px;
         position: relative;
-        background-color: #fff;
-        border-width: 0 0 1px 0;
-        border-style: solid;
-        border-color: $grey-color-light;
+        background-color: $white-color;
+        border-bottom: 1px, solid, $grey-color-light;
+    }
+
+    .icons {
+        padding-right: 5px;
+
+    }
+}
+
+.fullsize-white-bottom {
+    background-color: $white-color;
+    height: 100px;
+    margin-top: $spacing-unit * 3;
+}
+
+.ft {
+    background-color: $header-bg-color;
+    color: $white-color;
+    height: 300px;
+
+    .row {
+        padding-top: $spacing-unit;
     }
 }

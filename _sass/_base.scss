@@ -24,6 +24,11 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+
+    // desktop
+    min-width:1000px;
+    width: auto !important;  /* Firefox will set width as auto */
+    width:1000px;
 }
 
 

@@ -3,20 +3,82 @@ layout: default
 title: Home
 ---
 
-<div class="container">
-    <video></video>
-    <div class="cta">
-        <div class="cta-item">
+<div id="vplayer">
+    <iframe type="text/html" width="880"height="495"
+    src="https://www.youtube.com/embed/vx7SjxOdHUA?color=white&showinfo=0&modestbranding=1&rel=0"
+    frameborder="0">
+    </iframe>
+</div>
 
+<div class="cta">
+    <div class="cta-item">
+        <div class="cta-title">About us</div>
+
+        <a href="{{ site.url }}/about">
+            <img src="/assets/about_us_thumbnail.jpg" alt="about-us-tn">
+        </a>
+
+        <div class="cta-article">
+            <a href="{{ site.url }}/about">
+                <h4>
+                    What is NACRE
+                </h4>
+            </a>
+
+            <p>
+                NACRE is a non-profit organization dedicated to the betterment of educational opportunities for children in rural China. Our programs purport to benefit both rural Chinese children and Australian volunteers.
+            </p>
+            <div class="read-more">
+                <a href="{{ site.url }}/about">
+                    Read More
+                </a>
+            </div>
         </div>
-        <div class="cta-item">
+    </div>
 
+    <div class="cta-item">
+        <div class="cta-title">Get engaged</div>
+        <a href="{{ site.url }}/get-engaged">
+            <img src="/assets/get_engaged_thumbnail.jpg" alt="get-engaged-tn">
+        </a>
+        <div class="cta-article">
+            <a href="{{ site.url }}/get-engaged">
+                <h4>
+                    Join our 2017 Volunteer Mentors Program now
+                </h4>
+            </a>
+
+            <p>
+                Participation of our Volunteer Mentors Program is open to any applicant above the age of 18. The teaching of our volunteers will enable students in Guiyang to question and learn about the wider world – apply now and make a real difference.
+            </p>
+            <div class="read-more">
+                <a href="{{ site.url }}/get-engaged">
+                    Read More
+                </a>
+            </div>
         </div>
-        <div class="cta-item">
+    </div>
 
+    <div class="cta-item cta-item-last">
+        <div class="cta-title">Past Programs</div>
+        <a href="{{ site.url }}/programs">
+            <img src="/assets/past_programs_thumbnail.jpg" alt="past-programs-tn">
+        </a>
+        <div class="cta-article">
+            <a href="{{ site.url }}/programs">
+                <h4>
+                    2016 Volunteer Mentors Program
+                </h4>
+            </a>
+            <p>
+                Our 2016 Volunteer Mentors Program took place during the summer holidays, from late November to early December. Volunteers travelled to Guiyang of Guizhou Province, spent three weeks teaching Year 6 students at a rural primary school.
+            </p>
+            <div class="read-more">
+                <a href="{{ site.url }}/programs">
+                    Read More
+                </a>
+            </div>
         </div>
     </div>
 </div>
-
-
 
