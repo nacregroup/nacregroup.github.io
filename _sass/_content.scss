@@ -1,0 +1,41 @@
+.main {
+    clear: both;
+}
+
+
+.left-side-nav {
+    width: 220px;
+    background-color: $white-color;
+    margin: 0;
+    float:left;
+
+    .left-side-main-ul {
+        margin: 0;
+        list-style: none;
+    }
+
+    .left-side-main-li {
+        padding: 10px 15px 10px 15px;
+        // background-color: $prime-color;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: bold;
+        color: $black-color;
+        border-bottom: 1px solid $background-color;
+    }
+}
+
+.main-content {
+    float: right;
+    width: 595px;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $black-color;
+        font-weight: 500;
+    }
+
+    h5 {
+        margin-top: $spacing-unit;
+    }
+
+}

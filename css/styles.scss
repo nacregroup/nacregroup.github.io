@@ -21,6 +21,7 @@ $brand-color:      #666666;
 $prime-color:      #1BA2FC;
 $white-color:      #ffffff;
 $black-color:      #000000;
+$fb-icon-color:    #3B5998;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -40,3 +41,4 @@ $on-laptop: 800px;
 @import "base";
 @import "layout";
 @import "home";
+@import "content";
