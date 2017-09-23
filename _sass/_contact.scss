@@ -1,0 +1,47 @@
+form {
+    line-height: 27px;
+}
+
+form, input, textarea {
+    font-family: $base-font-family;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid $grey-color;
+    padding: 5px 12px;
+    background-color: $background-color;
+}
+
+input:focus{
+    outline: none !important;
+    border-bottom: 1px solid $prime-color;
+}
+
+textarea {
+    background-color: $background-color;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid $grey-color;
+    line-height: normal;
+}
+
+textarea:focus {
+    outline: none !important;
+    border: 1px solid $prime-color;
+}
+
+button {
+    margin-top: 10px;
+    color: $white-color;
+    background-color: $black-color;
+    border: none;
+    padding: 4px 25px;
+}
+
+button:hover {
+    background-color: $prime-color;
+}

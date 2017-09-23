@@ -34,8 +34,28 @@
         font-weight: 500;
     }
 
-    h5 {
-        margin-top: $spacing-unit;
+    h4 {
+        margin-top: 60px;
     }
 
+    h5 {
+        margin-top: 40px;
+    }
+
+    img {
+        margin: 20px 0 20px 0;
+    }
+
+    .small-img-right {
+        display: inline-block;
+        float: right;
+        width: 300px;
+        height: auto;
+    }
+
+    /*
+    strong {
+        color: $black-color;
+    }
+    */
 }
