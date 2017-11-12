@@ -29,7 +29,12 @@ plugins:
   - jekyll-feed
 sass:
     sass_dir: _sass
-    style: compressed
+    # style: compressed
+
+currentProgramYear: 2017
+volEmail: volunteer@nacre.org.au
+infoEmail: info@nacre.org.au
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
