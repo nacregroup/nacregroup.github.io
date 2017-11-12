@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -76,33 +76,47 @@
             <div class="wrapper">
                 <div class="row">
                     <div class="col-md-3">
-                        <b>About</b>
+                        <a href="{{ site.url }}/about"><b>About</b></a>
                         <ul>
-                            <li>about1</li>
-                            <li>about2</li>
+                            <li>
+                                <a href="{{ site.url }}/about#our-mission">Our mission</a>
+                            </li>
+                            <li>
+                                <a href="{{ site.url }}/about#our-vision">Our vision</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-md-3">
-                        <b>Programs</b>
+                        <a href="{{ site.url }}/programs"><b>Programs</b></a>
                         <ul>
-                            <li>program1</li>
-                            <li>program2</li>
+                            <li>
+                                <a href="{{ site.url }}/programs#volunteer">Volunteer Mentors Program</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-md-3">
-                        <b>Join</b>
+                        <a href="{{ site.url }}/program-{{ site.currentProgramYear }}"><b>Join</b></a>
                         <ul>
-                            <li>join1</li>
-                            <li>join2</li>
-                            <li>join3</li>
+                            <li>
+                                <a href="{{ site.url }}/program-{{ site.currentProgramYear }}#key-dates-{{ site.currentProgramYear }}">Key dates</a>
+                            </li>
+                            <li>
+                                <a href="{{ site.url }}/program-{{ site.currentProgramYear }}#costs-{{ site.currentProgramYear }}">Costs</a>
+                            </li>
+                            <li>
+                                <a href="{{ site.url }}/program-{{ site.currentProgramYear }}#application-{{ site.currentProgramYear }}">Application</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-md-3">
-                        <b>Contact</b>
+                        <a href="{{ site.url }}/contact-us"><b>Contact</b></a>
                         <ul>
-                            <li>contact</li>
-                            <li>contact</li>
-                            <li>contact</li>
+                            <li>
+                                <a href="{{ site.url }}/contact-us#emails">E-mails</a>
+                            </li>
+                            <li>
+                                <a href="{{ site.url }}/contact-us#contact-form">Form</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -127,5 +141,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/left_side_nav.js"></script>
 </body>
 </html>

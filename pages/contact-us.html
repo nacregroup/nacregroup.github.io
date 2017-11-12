@@ -3,19 +3,33 @@ layout: content
 permalink: contact-us
 title: Contact Us
 ---
+<h3>
+    <a name="emails"></a>
+    E-mails
+</h3>
+
+<ul>
+    <li>
+        <b>Information:</b> <a href="mailto:{{ site.infoEmail }}">{{ site.infoEmail }}</a>
+    </li>
+    <li>
+        <b>Volunteer application</b>: <a href="mailto:{{site.volEmail}}">{{ site.volEmail }}</a>
+    </li>
+</ul>
 
 <h3>
+    <a name="contact-form"></a>
     Contact Form
 </h3>
 
 <form action="https://formspree.io/info@nacre.org.au"
       method="POST">
       <b>Name:</b>
-      <input type="text" name="name" placeholder="Your Name">
+      <input type="text" name="name" placeholder="Your Name" required>
       <b>Email:</b>
-      <input type="email" name="_replyto" placeholder="Your Email">
+      <input type="email" name="_replyto" placeholder="Your Email" required>
       <b>Message:</b>
-      <textarea name="message" placeholder="Your Message"></textarea>
+      <textarea name="message" placeholder="Your Message" required></textarea>
       <button type="submit">Send</button>
 
 </form>
