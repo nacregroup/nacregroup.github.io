@@ -9,6 +9,10 @@
     margin: 0;
     float:left;
 
+    a {
+        text-decoration: none;
+    }
+
     .left-side-main-ul {
         margin: 0;
         list-style: none;
@@ -23,6 +27,35 @@
         color: $black-color;
         border-bottom: 1px solid $background-color;
     }
+
+    .left-side-main-li:hover {
+        background-color: $prime-color;
+        color: $white-color;
+    }
+
+    .sub-menu {
+        margin: 0 0 0 0;
+        background-color: lighten($background-color, 2%);
+        padding: 15px 25px 15px 25px;
+        list-style: none;
+        color: $text-color;
+        a {
+            color: $text-color;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .sub-menu-item {
+        margin-bottom: 5px;
+    }
+}
+
+.active {
+    background-color: $prime-color !important;
+    color: $white-color !important;
 }
 
 .main-content {

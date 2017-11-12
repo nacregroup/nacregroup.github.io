@@ -3,7 +3,6 @@ layout: content
 title: Program 2017
 permalink: program-2017
 ---
-
 ### Program 2017
 
 The recruitment for our Volunteer Mentors Program 2017 is now open.
@@ -11,14 +10,15 @@ The recruitment for our Volunteer Mentors Program 2017 is now open.
 Volunteers will travel to Guiyang of Guizhou Province, spend three weeks teaching Year 6 students at a rural primary school. For more information regarding the program, please visit [Our Programs]({{ site.url }}/programs) page.
 
 
-##### Key Dates
+##### <a name="key-dates-2017"></a> Key Dates
 Application closes at **5:00pm 30th of September, 2017**.
 
 The program will run between **27th of November, 2017** and **15th of December, 2017**.
 
 ![key dates](/assets/volunteer/key-dates-2017.png)
 
-##### Costs
+
+##### <a name="costs-2017"></a> Costs
 Approximate Total Cost: **$400**
 
 This cost includes:
@@ -45,7 +45,8 @@ Huishui, Guiyang, China
 #### Join Us As A Volunteer
 
 
-##### Positions Available
+
+##### <a name="positions-2017"></a> Positions Available
 - Volunteer Mentor
 - Volunteer Team Leader
 
@@ -76,7 +77,8 @@ For the position of volunteer team leader:
 - Chinese cultural background preferred
 
 
-##### Application Process
+
+##### <a name="application-2017"></a> Application Process
 
 To apply for our Volunteer Mentors program, please complete the application form [here](/assets/volunteer/volunteer-form.pdf) and email it to [{{ site.volEmail }}](mailto:{{ site.volEmail }}) alongside with your CV. Alternatively, you can use our [Contact Us]({{ site.url }}/contact-us) page to get in contact with us.
 

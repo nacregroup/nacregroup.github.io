@@ -3,8 +3,7 @@ layout: content
 permalink: programs
 title: Programs
 ---
-
-### Volunteer Mentors Program
+### <a name="volunteer"></a> Volunteer Mentors Program 
 
 Our {{ site.currentProgramYear }} Volunteer Mentors Program will take place during the summer holidays, from late November to early December. Volunteers will travel to Guiyang of Guizhou Province, where they will spend approximately three weeks teaching Year 6 students at a rural primary school.
 

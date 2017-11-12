@@ -5,21 +5,43 @@ layout: default
 <div class="left-side-nav">
     <ul class="left-side-main-ul">
         <a href="{{ site.url }}/programs">
-            <li class="left-side-main-li">
+            <li class="left-side-main-li" id="left-nav-programs">
                 Programs
             </li>
         </a>
-        <a href="{{ site.url }}/about">
+        <a href="{{ site.url }}/about" id="left-nav-about">
             <li class="left-side-main-li">
                 About us
             </li>
         </a>
-        <a href="{{ site.url }}/program-2017">
-            <li class="left-side-main-li">
+        <a href="{{ site.url }}/program-{{ site.currentProgramYear }}">
+            <li class="left-side-main-li" id="left-nav-join">
                 Join Us
             </li>
         </a>
-        <a href="{{ site.url }}/contact-us">
+        <ul class="sub-menu" id="left-nav-join-sub">
+            <a href="{{ site.url }}/program-{{ site.currentProgramYear }}/#key-dates-{{ site.currentProgramYear }}">
+                <li class="sub-menu-item">
+                    Key dates
+                </li>
+            </a>
+            <a href="{{ site.url }}/program-{{ site.currentProgramYear }}/#costs-{{ site.currentProgramYear }}">
+                <li class="sub-menu-item">
+                    Costs
+                </li>
+            </a>
+            <a href="{{ site.url }}/program-{{ site.currentProgramYear }}/#positions-{{ site.currentProgramYear }}">
+                <li class="sub-menu-item">
+                    Positions
+                </li>
+            </a>
+            <a href="{{ site.url }}/program-{{ site.currentProgramYear }}/#application-{{ site.currentProgramYear }}">
+                <li class="sub-menu-item">
+                    Application process
+                </li>
+            </a>
+        </ul>
+        <a href="{{ site.url }}/contact-us" id="left-nav-contact">
             <li class="left-side-main-li">
                 Contact Us
             </li>

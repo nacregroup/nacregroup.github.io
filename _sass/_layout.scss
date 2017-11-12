@@ -136,10 +136,13 @@
     height: 200px;
 
     .row {
-        padding-top: $spacing-unit;
-
+        padding-top: 50px;
         // not wrap when mobile
         flex-wrap: nowrap;
+    }
+
+    a {
+        color: $white-color;
     }
 
     ul {
